@@ -65,16 +65,19 @@ public class Demo1 {
         for (int index = 1; index <= leng; index++) {
             String str = pattern.substring(0, index);
             //如果存在匹配的单词
-            int indexOfWord = spiltWordsWithoutBlankSpace.indexOf(str);
-            if (-1 != indexOfWord) {
-                if (index == leng) {
-                    outWords += splitWords.get(indexOfWord);
-                    //输出一整句话
-                    log.warn(outWords);
-                    return;
+            int size = this.spiltWordsWithoutBlankSpace.size();
+            for (int i =0;i < size; i++){
+                if(this.spiltWordsWithoutBlankSpace.get(i).replace(" ","").equals(str)){
+                    if (index == leng) {
+                        outWords += this.splitWords.get(i);
+                        //输出一整句话
+                        log.warn(outWords);
+                        outWords = outWords.replace(this.splitWords.get(i),"");
+                        continue;
+                    }
+                    //递归判断之后的单词是否存在
+                    wordExists(pattern.substring(index, leng), outWords + str + " ");
                 }
-                //递归判断之后的单词是否存在
-                wordExists(pattern.substring(index, leng), outWords + str + " ");
             }
         }
     }
