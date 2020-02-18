@@ -28,6 +28,12 @@ public class DemoApplicationTests {
     @Test
     public void stage2(){
         this.demo1.individualDictionaryWordsOnlyInput("{{i,like,sam,sung,mobile,icecream,man go,mango}",
+                "ilikeicecreammango");
+    }
+
+    @Test
+    public void stage2_mango(){
+        this.demo1.individualDictionaryWordsOnlyInput("{{i,like,sam,sung,mobile,icecream,man go,mango}",
                 "ilikemangoicecreammango");
     }
 

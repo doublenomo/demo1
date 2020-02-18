@@ -62,16 +62,17 @@ public class Demo1 {
             //如果存在匹配的单词
             int size = this.splitWords.size();
             for (int i =0;i < size; i++){
-                if(this.splitWords.get(i).replace(" ","").equals(str)){
+                String currentSplitWord = this.splitWords.get(i);
+                if(currentSplitWord.replace(" ","").equals(str)){
                     if (index == leng) {
-                        outWords += this.splitWords.get(i);
+                        outWords += currentSplitWord;
                         //输出一整句话
                         log.warn(outWords);
-                        outWords = outWords.substring(0, outWords.lastIndexOf(this.splitWords.get(i)));
+                        outWords = outWords.substring(0, outWords.lastIndexOf(currentSplitWord));
                         continue;
                     }
                     //递归判断之后的单词是否存在
-                    wordExists(pattern.substring(index, leng), outWords + str + " ");
+                    wordExists(pattern.substring(index, leng), outWords + currentSplitWord + " ");
                 }
             }
         }

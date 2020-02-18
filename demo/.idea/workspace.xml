@@ -17,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/demo/DemoApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="251">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/demo/service/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="238">
+              <caret line="74" column="90" selection-start-line="74" selection-start-column="74" selection-end-line="74" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,7 +58,11 @@
     <findStrings>
       <find>xiaofanglei@</find>
       <find>mango</find>
+      <find>this.splitWords.get(i)</find>
     </findStrings>
+    <replaceStrings>
+      <replace>currentSplitWord</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -228,7 +232,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTests.testIndividualDictionaryWords1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoApplicationTests.stage2_mango" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -238,7 +242,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.demo.demo" />
       <option name="MAIN_CLASS_NAME" value="com.demo.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="testIndividualDictionaryWords1" />
+      <option name="METHOD_NAME" value="stage2_mango" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -270,10 +274,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DemoApplicationTests.stage2" />
+        <item itemvalue="JUnit.DemoApplicationTests.stage2_mango" />
         <item itemvalue="JUnit.DemoApplicationTests.stage1_2" />
         <item itemvalue="JUnit.DemoApplicationTests.stage1_1" />
         <item itemvalue="JUnit.DemoApplicationTests.testIndividualDictionaryWords12" />
-        <item itemvalue="JUnit.DemoApplicationTests.testIndividualDictionaryWords1" />
       </list>
     </recent_temporary>
   </component>
@@ -288,26 +292,11 @@
       <option name="presentableId" value="Default" />
       <updated>1582010287572</updated>
       <workItem from="1582010290502" duration="8325000" />
-      <workItem from="1582026901204" duration="2013000" />
+      <workItem from="1582026901204" duration="2467000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoApplicationTests_stage2 - 2020.02.18 at 20h 14m 22s.xml">
-      <configuration name="DemoApplicationTests.stage2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_stage2 - 2020.02.18 at 20h 15m 03s.xml">
-      <configuration name="DemoApplicationTests.stage2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_stage2 - 2020.02.18 at 20h 17m 58s.xml">
-      <configuration name="DemoApplicationTests.stage2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_stage2 - 2020.02.18 at 20h 18m 12s.xml">
-      <configuration name="DemoApplicationTests.stage2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_stage1_1 - 2020.02.18 at 20h 18m 35s.xml">
-      <configuration name="DemoApplicationTests.stage1_1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DemoApplicationTests_stage1_2 - 2020.02.18 at 20h 19m 07s.xml">
       <configuration name="DemoApplicationTests.stage1_2" configurationId="JUnit" />
     </history-entry>
@@ -323,9 +312,24 @@
     <history-entry file="DemoApplicationTests_stage2 - 2020.02.18 at 20h 28m 40s.xml">
       <configuration name="DemoApplicationTests.stage2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DemoApplicationTests_stage1_2 - 2020.02.18 at 20h 28m 52s.xml">
+      <configuration name="DemoApplicationTests.stage1_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_stage1_2 - 2020.02.18 at 20h 29m 29s.xml">
+      <configuration name="DemoApplicationTests.stage1_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_stage1_2 - 2020.02.18 at 20h 30m 33s.xml">
+      <configuration name="DemoApplicationTests.stage1_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_stage2 - 2020.02.18 at 20h 30m 48s.xml">
+      <configuration name="DemoApplicationTests.stage2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_stage2 - 2020.02.18 at 20h 34m 10s.xml">
+      <configuration name="DemoApplicationTests.stage2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10338000" />
+    <option name="totallyTimeSpent" value="10792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -342,7 +346,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46452478" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5241287" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36729223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -428,19 +432,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/demo/service/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/demo/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="251">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -448,6 +442,16 @@
             <element signature="e#724#725#0" expanded="true" />
             <element signature="e#764#765#0" expanded="true" />
             <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/demo/service/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="74" column="90" selection-start-line="74" selection-start-column="74" selection-end-line="74" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
