@@ -28,7 +28,7 @@ public class DemoApplicationTests {
     @Test
     public void stage2(){
         this.demo1.individualDictionaryWordsOnlyInput("{{i,like,sam,sung,mobile,icecream,man go,mango}",
-                "ilikeicecreammango");
+                "ilikemangoicecreammango");
     }
 
 }

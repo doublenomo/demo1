@@ -23,9 +23,6 @@ public class Demo1 {
             orgPattern.replace("，", ",").replace("{","")
                     .replace("}","").split(",")));
 
-    private static List<String> spiltWordsWithoutBlankSpace = new ArrayList(Arrays.asList(orgPattern.replace("，", ",").replace("{","")
-            .replace("}","").replace(" ","").split(",")));
-
     /**
      * 直接拆分语句
      *
@@ -46,8 +43,6 @@ public class Demo1 {
         this.splitWords = new ArrayList(Arrays.asList(
                 pattern.replace("，", ",").replace("{","")
                         .replace("}","").split(",")));
-        this.spiltWordsWithoutBlankSpace = new ArrayList(Arrays.asList(pattern.replace("，", ",").replace("{","")
-                .replace("}","").replace(" ","").split(",")));
 
         //判断单词是否存在
         wordExists(inputMsg, "");
@@ -65,14 +60,14 @@ public class Demo1 {
         for (int index = 1; index <= leng; index++) {
             String str = pattern.substring(0, index);
             //如果存在匹配的单词
-            int size = this.spiltWordsWithoutBlankSpace.size();
+            int size = this.splitWords.size();
             for (int i =0;i < size; i++){
-                if(this.spiltWordsWithoutBlankSpace.get(i).replace(" ","").equals(str)){
+                if(this.splitWords.get(i).replace(" ","").equals(str)){
                     if (index == leng) {
                         outWords += this.splitWords.get(i);
                         //输出一整句话
                         log.warn(outWords);
-                        outWords = outWords.replace(this.splitWords.get(i),"");
+                        outWords = outWords.substring(0, outWords.lastIndexOf(this.splitWords.get(i)));
                         continue;
                     }
                     //递归判断之后的单词是否存在
